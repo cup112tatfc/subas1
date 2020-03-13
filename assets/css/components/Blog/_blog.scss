@@ -1,0 +1,280 @@
+.page-wrapper {
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    .mb-50 {
+        margin-bottom: 50px;
+    }
+    button {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        border: medium none;
+        font-family: raleway;
+        outline: medium none;
+        color: #666666;
+    }
+    a,
+    button,
+    input {
+        outline: medium none;
+        color: #666666;
+    }
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    .blog-section {
+        .blog-option {
+            padding: 18px 0;
+            display: flex;
+            .option-btn {
+                margin-left: 30px;
+                padding: 0;
+                .fa {
+                    margin-left: 5px;
+                    font-size: 9px;
+                }
+            }
+            .dropdown-width {
+                width: 270px;
+            }
+            .mt-30 {
+                margin-top: 30px;
+            }
+            .dropdown-menu {
+                border: 0 none;
+                border-radius: 0;
+                box-shadow: none;
+                padding: 0;
+                .widget {
+                    padding: 20px 30px;
+                    h6 {
+                        font-size: 14px;
+                    }
+                    .product-item {
+                        overflow: hidden;
+                        margin-bottom: 30px;
+                        transition: all 0.3s ease 0s;
+                        &:hover {
+                            box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.15);
+                        }
+                    }
+                    .widget-title {
+                        color: #666666;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                    .border-left {
+                        position: relative;
+                        padding-left: 10px;
+                        &:before {
+                            background: #ff7f00 none repeat scroll 0 0;
+                            content: "";
+                            height: 12px;
+                            left: 0;
+                            margin-top: -6px;
+                            position: absolute;
+                            top: 50%;
+                            width: 2px;
+                        }
+                    }
+                    .mb-20 {
+                        margin-bottom: 20px;
+                    }
+                    .product-cat {
+                        .treeview {
+                            .closed {
+                                position: relative;
+                                .hitarea {
+                                    cursor: pointer;
+                                    height: 30px;
+                                    left: 0;
+                                    position: absolute;
+                                    top: 0;
+                                    width: 100%;
+                                }
+                            }
+                            li>a {
+                                font-size: 14px;
+                                line-height: 30px;
+                                color: #999999;
+                                display: inline-block;
+                                text-transform: capitalize;
+                                outline: medium none;
+                            }
+                            .open {
+                                >ul {
+                                    padding-left: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .product-item {
+                        overflow: hidden;
+                        margin-bottom: 30px;
+                        transition: all 0.3s ease 0s;
+                        .product-img {
+                            float: left;
+                            width: 35%;
+                        }
+                        .product-info {
+                            background: #fff none repeat scroll 0 0;
+                            float: left;
+                            padding: 15px 0 0 10px;
+                            text-align: left;
+                            width: 65%;
+                            .mt-10 {
+                                margin-top: 10px;
+                            }
+                            .product-title {
+                                color: #666;
+                                font-weight: 500;
+                                text-transform: capitalize;
+                            }
+                            .multi-line {
+                                overflow: inherit;
+                                text-overflow: inherit;
+                                white-space: inherit;
+                            }
+                            .product-title {
+                                font-family: "Raleway", sans-serif;
+                                font-size: 15px;
+                                margin-bottom: 10px;
+                                a:hover {
+                                    color: #ff7f00;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                    .widget-tags-list>li {
+                        display: inline-block;
+                        margin-top: 5px;
+                        margin-right: 10px;
+                        a {
+                            color: #999999;
+                            font-size: 13px;
+                            &:hover {
+                                color: #ff7f00;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .blog-item {
+            margin-bottom: 30px;
+            overflow: hidden;
+            position: relative;
+            &:hover {
+                .blog-desc {
+                    opacity: 1;
+                    &:before {
+                        opacity: 1;
+                        transform: scale(1);
+                    }
+                    &:after {
+                        opacity: 1;
+                        transform: scale(1);
+                    }
+                }
+            }
+            .blog-desc {
+                a {
+                    color: #fefefe;
+                    outline: medium none;
+                    &:hover {
+                        color: #ccc;
+                    }
+                }
+                backface-visibility: hidden;
+                background: rgba(255, 127, 0, 0.95) none repeat scroll 0 0;
+                height: 100%;
+                left: 0;
+                padding: 40px;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                opacity: 0;
+                transition: all 0.5s ease 0s;
+                color: #fefefe;
+                .blog-title {
+                    text-transform: uppercase;
+                }
+                &:before {
+                    bottom: 20px;
+                    content: "";
+                    left: 20px;
+                    opacity: 0;
+                    pointer-events: none;
+                    position: absolute;
+                    right: 20px;
+                    top: 20px;
+                    color: #fefe;
+                    transition: opacity 0.35s ease 0s, transform 0.5s ease 0s;
+                }
+                &:after {
+                    bottom: 20px;
+                    content: "";
+                    left: 20px;
+                    opacity: 0;
+                    pointer-events: none;
+                    position: absolute;
+                    right: 20px;
+                    top: 20px;
+                    transition: opacity 0.35s ease 0s, transform 0.5s ease 0s;
+                }
+                &:before {
+                    border-bottom: 1px solid #fefefe;
+                    border-top: 1px solid #fefefe;
+                    transform: scale(0, 1);
+                }
+                &:after {
+                    border-right: 1px solid #fefefe;
+                    border-left: 1px solid #fefefe;
+                    transform: scale(1, 0);
+                }
+                .blog-title {
+                    font-weight: 700;
+                    line-height: 16px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                h5 {
+                    font-size: 16px;
+                }
+                p {
+                    margin-bottom: 25px;
+                    font-size: 13px;
+                    font-weight: normal;
+                    line-height: 20px;
+                    color: #fefefe;
+                }
+                .read-more {
+                    margin-bottom: 45px;
+                }
+                .blog-meta {
+                    display: flex;
+                    line-height: 1;
+                    li {
+                        margin-left: 15px;
+                        a {
+                            font-size: 11px;
+                            font-weight: 500;
+                            line-height: 12px;
+                            .fa {
+                                font-size: 13px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    li:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.active {}

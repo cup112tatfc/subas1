@@ -1,0 +1,43 @@
+@import '../layout/Header';
+@import '../pages/About/About';
+@import '../pages/Login/Login';
+@import '../pages/Contact/contact';
+@import '../pages/Blog/Blog';
+@import '../layout/Footer';
+@import '../responsive/responsive';
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.wrapper {
+    background: #fff none repeat scroll 0 0;
+    overflow: hidden;
+    #scrollUp {
+        background: #ccc;
+        bottom: 10px;
+        color: #ffffff;
+        font-size: 20px;
+        height: 40px;
+        right: 10px;
+        text-align: center;
+        transition: all 0.3s ease 0s;
+        width: 40px;
+        display: none;
+        .fa {
+            line-height: 40px;
+            font-size: 15px;
+        }
+        &:hover {
+            background: #FF7F00 none repeat scroll 0 0;
+            color: #ffffff;
+        }
+    }
+    .action {
+        display: block!important;
+        ;
+    }
+}

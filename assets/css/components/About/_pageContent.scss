@@ -1,0 +1,220 @@
+.section {
+    float: left;
+    width: 100%;
+}
+
+.mb80 {
+    margin-bottom: 80px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.page-content-about {
+    .about-section {
+        .container {
+            .row {
+                .col-lg-12 {
+                    .section-text {
+                        .uppercase {
+                            font-size: 30px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            text-transform: uppercase;
+                        }
+                        h6 {
+                            font-size: 14px;
+                            font-family: 'Raleway', sans-serif;
+                            font-weight: normal;
+                            color: #434343;
+                            margin-top: 0px;
+                            font-style: normal;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .col-lg-5 {
+                    .bg-img-1 {
+                        background: rgba(255, 255, 255, 0.5) url(../images/about/blog-photo-bg.png) repeat scroll 0 0;
+                    }
+                    .p-20 {
+                        padding: 20px;
+                    }
+                }
+                .col-lg-7 {
+                    .mt-50 {
+                        margin-top: 50px;
+                        p {
+                            font-size: 13px;
+                            font-weight: normal;
+                            line-height: 20px;
+                            color: #666;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .team-section {
+        .container {
+            .row {
+                .col-lg-12 {
+                    .section-text {
+                        .uppercase {
+                            font-size: 30px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            text-transform: uppercase;
+                        }
+                        h6 {
+                            font-size: 14px;
+                            font-family: 'Raleway', sans-serif;
+                            font-weight: normal;
+                            color: #434343;
+                            margin-top: 0px;
+                            font-style: normal;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+            .slider-click {
+                .owl-carousel {
+                    .col-lg-12 {
+                        .bg-shape {
+                            overflow: hidden;
+                            position: relative;
+                            &:before {
+                                background: #434343 none repeat scroll 0 0;
+                                content: "";
+                                height: 150px;
+                                left: 0;
+                                margin-top: -65px;
+                                position: absolute;
+                                top: 0;
+                                transform: skewY(-25deg);
+                                transition: all 0.5s ease 0s;
+                                width: 100%;
+                                z-index: -1;
+                            }
+                            &:hover:before {
+                                background: #ff7f00 none repeat scroll 0 0;
+                            }
+                        }
+                        .box-shadow {
+                            box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+                        }
+                        .team-member {
+                            margin-bottom: 30px;
+                            padding: 20px 20px 30px;
+                            text-align: center;
+                            .team-member-photo {
+                                img {
+                                    margin: auto;
+                                    display: block;
+                                }
+                            }
+                            .pt-20 {
+                                padding-top: 20px;
+                            }
+                            .team-member-info {
+                                .member-name {
+                                    color: #666;
+                                    font-weight: 600;
+                                    line-height: 1;
+                                    text-transform: uppercase;
+                                    a {
+                                        color: #666;
+                                        text-decoration: none;
+                                        font-size: 18px;
+                                        outline: medium none;
+                                        &:hover {
+                                            color: #F36F24;
+                                        }
+                                    }
+                                }
+                                .member-position {
+                                    font-weight: 500;
+                                    line-height: 1;
+                                    text-transform: uppercase;
+                                }
+                                .mb-20 {
+                                    margin-bottom: 20px;
+                                }
+                                p {
+                                    font-size: 13px;
+                                    font-weight: normal;
+                                    line-height: 20px;
+                                    color: #999999;
+                                    margin-bottom: 15px;
+                                }
+                                ul {
+                                    margin: 0px;
+                                    padding: 0px;
+                                    display: flex;
+                                    justify-content: space-evenly;
+                                    li {
+                                        a {
+                                            border: 1px solid rgb(153, 153, 153);
+                                            border-radius: 50%;
+                                            color: #999;
+                                            display: block;
+                                            height: 30px;
+                                            text-align: center;
+                                            width: 30px;
+                                            .fa {
+                                                font-size: 0.8rem;
+                                                line-height: 29px;
+                                            }
+                                            &:hover {
+                                                border-color: transparent;
+                                                color: #fff;
+                                            }
+                                        }
+                                        .facebook:hover {
+                                            background: #3B5998;
+                                        }
+                                        .google-plus:hover {
+                                            background: #DD493D;
+                                        }
+                                        .twitter:hover {
+                                            background: #1DA1F2;
+                                        }
+                                        .rss:hover {
+                                            background: #F36F24;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    display: none;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 60.5%;
+}
+
+.owl-theme .owl-stage-outer .owl-stage .owl-item {
+   
+}

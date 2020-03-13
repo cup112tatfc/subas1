@@ -1,0 +1,77 @@
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.section {
+    float: left;
+    width: 100%;
+}
+
+.banner {
+    .breadcrumbs {
+        background: #f6f6f6 url(../images/about/banner/1.png) no-repeat scroll center center;
+        position: relative;
+        &:before {
+            content: "";
+            background: #f6f6f6 none repeat scroll 0 0;
+            height: 100%;
+            left: 0;
+            opacity: 0.6;
+            position: absolute;
+            top: 0;
+            transition: all 0.3s ease 0s;
+            width: 100%;
+        }
+        .container {
+            .row {
+                .col-lg-12 {
+                    .breadcrumbs-inner {
+                        position: relative;
+                        z-index: 10;
+                        .breadcrumbs-title {
+                            color: #575757;
+                            font-size: 31px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            margin-bottom: 0;
+                            padding: 115px 0 85px;
+                            text-align: center;
+                            text-transform: uppercase;
+                        }
+                    }
+                    .breadcrumb-list {
+                        line-height: 1;
+                        padding-bottom: 20px;
+                        padding-left: 0;
+                        margin-bottom: 0;
+                        font-size: 14px;
+                        >li {
+                            color: #999999;
+                            display: inline-block;
+                            font-size: 13px;
+                            font-weight: 600;
+                            margin-right: 15px;
+                            text-transform: uppercase;
+                            &:before {
+                                content: "_";
+                                left: 0;
+                                color: #666666;
+                                transition: all 0.3s ease 0s;
+                            }
+                            a {
+                                color: #575757;
+                                text-decoration: none;
+                            }
+                        }
+                        >li:hover:before {
+                            color: #FF7F00;
+                        }
+                        >li:hover>a {
+                            color: #FF7F00;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

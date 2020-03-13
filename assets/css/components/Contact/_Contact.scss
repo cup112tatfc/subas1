@@ -1,0 +1,132 @@
+.page-wrapper {
+    .address-section {
+        .contact-address {
+            padding: 40px 20px 30px;
+            text-align: center;
+            min-height: 230px;
+            h6 {
+                font-size: 14px;
+                color: #666;
+                a {
+                    color: #666;
+                    &:hover {
+                        color: #ff7f00;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .fa {
+                border-radius: 50%;
+                box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+                color: #999999;
+                font-size: 30px;
+                height: 60px;
+                line-height: 60px;
+                margin-bottom: 30px;
+                text-align: center;
+                width: 60px;
+                transition: all 0.3s ease 0s;
+            }
+            &:hover {
+                .fa {
+                    background: #ff7f00 none repeat scroll 0 0;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .google-map-section {
+        .google-map {
+            #map {
+                height: 350px;
+                width: 100%;
+            }
+        }
+    }
+    .message-box-section {
+        margin-top: -50px;
+        .white-bg {
+            background-color: #fff;
+        }
+        .message-box {
+            padding: 40px 60px;
+            #contact-form {
+                .blog-section-title {
+                    color: #575757;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 14px;
+                    text-transform: uppercase;
+                    &:before {
+                        background: #ff7f00 none repeat scroll 0 0;
+                        content: "";
+                        height: 12px;
+                        left: 0;
+                        margin-top: -6px;
+                        position: absolute;
+                        top: 50%;
+                        width: 2px;
+                    }
+                }
+                .border-left {
+                    position: relative;
+                    padding-left: 10px;
+                }
+                .mb-30 {
+                    margin-bottom: 30px;
+                }
+                textarea {
+                    background: #ffffff none repeat scroll 0 0;
+                    border: 1px solid transparent;
+                    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+                    font-size: 13px;
+                    padding: 10px 10px 10px 20px;
+                    resize: vertical;
+                    width: 100%;
+                    outline: medium none;
+                }
+                .custom-textarea {
+                    height: 110px;
+                    &:focus {
+                        border: 1px solid #ff7f00;
+                    }
+                }
+                .submit-btn-1 {
+                    background: rgb(255, 127, 0) none repeat scroll 0 0;
+                    border: medium none;
+                    color: rgb(255, 255, 255);
+                    font-size: 13px;
+                    font-weight: 700;
+                    height: 35px;
+                    padding: 0 20px;
+                    text-transform: uppercase;
+                    transition: all 0.3s ease 0s;
+                    position: relative;
+                    &:before {
+                        background: #434343 none repeat scroll 0 0;
+                        bottom: 0;
+                        content: "";
+                        height: 2px;
+                        left: 0;
+                        position: absolute;
+                        transition: all 0.5s ease 0s;
+                        width: 0;
+                        z-index: 9999;
+                    }
+                    &:hover:before {
+                        width: 100%;
+                    }
+                }
+                .mt-30 {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1170px) {
+    .plr-185 {
+        padding: 0 30px;
+    }
+}

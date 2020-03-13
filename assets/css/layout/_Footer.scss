@@ -1,0 +1,256 @@
+    .section {}
+    
+    .footer-area {
+        ul {
+            margin: 0px;
+            padding: 0px;
+        }
+        .footer-top {
+            a {
+                text-decoration: none;
+            }
+            .container-fluid {
+                .content {
+                    .footer-top-inner {
+                        background: #f6f6f6;
+                        .row {
+                            .single-footer {
+                                h4 {
+                                    font-size: 18px;
+                                }
+                                .border-left {
+                                    position: relative;
+                                    padding-left: 10px;
+                                    &:before {
+                                        background: #ff7f00 none repeat scroll 0 0;
+                                        content: "";
+                                        height: 12px;
+                                        left: 0;
+                                        margin-top: -6px;
+                                        position: absolute;
+                                        top: 50%;
+                                        width: 2px;
+                                    }
+                                }
+                                .footer-title {
+                                    font-weight: 700;
+                                    margin: 10px 0 30px;
+                                    text-transform: uppercase;
+                                }
+                                .footer-menu {
+                                    li {
+                                        a {
+                                            color: #666666;
+                                            line-height: 30px;
+                                            span {
+                                                font-size: 13px !important;
+                                                font-weight: 400 !important;
+                                            }
+                                            .fa {
+                                                color: #999999;
+                                                font-size: 5px;
+                                                margin-right: 10px;
+                                                position: relative;
+                                                top: -3px;
+                                            }
+                                        }
+                                        &:hover {
+                                            a,
+                                            .fa {
+                                                color: #ff7f00;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .col-xl-4 {
+                                .footer-about {
+                                    padding-right: 70px;
+                                    .footer-logo {
+                                        margin-bottom: 35px;
+                                    }
+                                    .footer-brief {
+                                        margin-bottom: 33px;
+                                        p {
+                                            font-size: 13px;
+                                            font-weight: normal;
+                                            line-height: 20px;
+                                            color: #999999;
+                                            margin-bottom: 15px;
+                                        }
+                                    }
+                                    .footer-social {
+                                        display: flex;
+                                        justify-content: space-evenly;
+                                        li {
+                                            a {
+                                                border: 1px solid rgb(153, 153, 153);
+                                                border-radius: 50%;
+                                                color: #999;
+                                                display: block;
+                                                height: 30px;
+                                                text-align: center;
+                                                width: 30px;
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                .fa {
+                                                    font-size: 0.8rem;
+                                                    line-height: 29px;
+                                                }
+                                                &:hover {
+                                                    border-color: transparent;
+                                                    color: #fff;
+                                                }
+                                            }
+                                            .facebook:hover {
+                                                background: #3B5998;
+                                            }
+                                            .google-plus:hover {
+                                                background: #DD493D;
+                                            }
+                                            .twitter:hover {
+                                                background: #1DA1F2;
+                                            }
+                                            .rss:hover {
+                                                background: #F36F24;
+                                            }
+                                        }
+                                    }
+                                }
+                                .single-footer {
+                                    .border-left {
+                                        position: relative;
+                                        padding-left: 10px;
+                                        &:before {
+                                            background: #ff7f00 none repeat scroll 0 0;
+                                            content: "";
+                                            height: 12px;
+                                            left: 0;
+                                            margin-top: -6px;
+                                            position: absolute;
+                                            top: 50%;
+                                            width: 2px;
+                                        }
+                                    }
+                                    .footer-title {
+                                        font-weight: 700;
+                                        margin: 10px 0 30px;
+                                        text-transform: uppercase;
+                                    }
+                                    .footer-message {
+                                        input:focus {
+                                            border: 1px solid #FFBF7F;
+                                        }
+                                        input {
+                                            box-shadow: none;
+                                            margin-bottom: 10px;
+                                            outline: medium none;
+                                        }
+                                        input {
+                                            background: #fff none repeat scroll 0 0;
+                                            border: 1px solid transparent;
+                                            box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+                                            color: #999999;
+                                            font-size: 13px;
+                                            height: 40px;
+                                            margin-bottom: 10px;
+                                            padding-left: 20px;
+                                            width: 100%;
+                                        }
+                                        textarea {
+                                            box-shadow: none;
+                                            height: 80px;
+                                            background: #ffffff none repeat scroll 0 0;
+                                            border: 1px solid transparent;
+                                            box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+                                            font-size: 13px;
+                                            padding: 10px 10px 10px 20px;
+                                            resize: vertical;
+                                            width: 100%;
+                                            outline: medium none;
+                                            &:focus {
+                                                border: 1px solid #FFBF7F;
+                                            }
+                                        }
+                                        .mt-20 {
+                                            margin-top: 20px;
+                                        }
+                                        .btn-hover-1 {
+                                            position: relative;
+                                        }
+                                        .submit-btn-1 {
+                                            background: rgb(255, 127, 0) none repeat scroll 0 0;
+                                            border: medium none;
+                                            color: rgb(255, 255, 255);
+                                            font-size: 13px;
+                                            font-weight: 700;
+                                            height: 35px;
+                                            padding: 0 20px;
+                                            text-transform: uppercase;
+                                            transition: all 0.3s ease 0s;
+                                            cursor: default;
+                                            &:hover:before {
+                                                width: 100%;
+                                            }
+                                            &:before {
+                                                background: #434343 none repeat scroll 0 0;
+                                                bottom: 0;
+                                                content: "";
+                                                height: 2px;
+                                                left: 0;
+                                                position: absolute;
+                                                transition: all 0.5s ease 0s;
+                                                width: 0;
+                                                z-index: 9999;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .black-bg {
+            background: #222222;
+        }
+        .footer-bottom {
+            .container-fluid {
+                .plr-185 {
+                    .copyright {
+                        .row {
+                            .col-md-6 {
+                                .copyright-text {
+                                    padding: 14px 0;
+                                    p {
+                                        margin: 0px;
+                                        padding: 0px;
+                                        font-size: 13px;
+                                        font-weight: normal;
+                                        color: #fff;
+                                        a {
+                                            color: #999999;
+                                            text-decoration: none;
+                                            &:hover {
+                                                color: #ff7f00;
+                                            }
+                                        }
+                                    }
+                                }
+                                .footer-payment {
+                                    line-height: 1;
+                                    padding: 12px 0;
+                                    display: flex;
+                                    justify-content: flex-end;
+                                    li {
+                                        margin-left: 6px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

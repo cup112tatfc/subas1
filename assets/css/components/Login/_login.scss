@@ -1,0 +1,152 @@
+.page-wrapper {
+    a {
+        text-decoration: none !important;
+    }
+    .mb-80 {
+        margin-bottom: 80px;
+    }
+    .box-shadow {
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    }
+    .p-30 {
+        padding: 30px;
+    }
+    p {
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 20px;
+        color: #999999;
+        margin-bottom: 15px;
+    }
+    input[type="text"],
+    input[type="password"] {
+        background: #fff none repeat scroll 0 0;
+        border: 1px solid transparent;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+        color: #999999;
+        font-size: 13px;
+        height: 40px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        width: 100%;
+        outline: medium none;
+        &:focus {
+            border: 1px solid #ff7f00;
+        }
+    }
+    .login-section {
+        .container {
+            .row {
+                .col-lg-6 {
+                    .registered-customers,
+                    .new-customers {
+                        .mt-20 {
+                            margin-top: 20px;
+                        }
+                        .mb-50 {
+                            margin-bottom: 50px;
+                        }
+                        .border-left {
+                            border-left: 1px solid #dee2e6!important;
+                            position: relative;
+                            padding-left: 10px;
+                        }
+                        h6 {
+                            font-size: 14px;
+                        }
+                        .widget-title {
+                            color: #666666;
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            &:before {
+                                background: #ff7f00 none repeat scroll 0 0;
+                                content: "";
+                                height: 12px;
+                                left: 0;
+                                margin-top: -6px;
+                                position: absolute;
+                                top: 50%;
+                                width: 2px;
+                            }
+                        }
+                        form {
+                            .login-account {
+                                p {
+                                    small {
+                                        a {
+                                            outline: medium none;
+                                            color: #666666;
+                                            &:hover {
+                                                color: #ff7f00;
+                                            }
+                                        }
+                                    }
+                                }
+                                .submit-btn-1 {
+                                    background: rgb(255, 127, 0) none repeat scroll 0 0;
+                                    border: medium none;
+                                    color: rgb(255, 255, 255);
+                                    font-size: 13px;
+                                    font-weight: 700;
+                                    height: 35px;
+                                    padding: 0 20px;
+                                    text-transform: uppercase;
+                                    transition: all 0.3s ease 0s;
+                                    position: relative;
+                                    &:hover:before {
+                                        width: 100%;
+                                    }
+                                    &:before {
+                                        background: #434343 none repeat scroll 0 0;
+                                        bottom: 0;
+                                        content: "";
+                                        height: 2px;
+                                        left: 0;
+                                        position: absolute;
+                                        transition: all 0.5s ease 0s;
+                                        width: 0;
+                                        z-index: 9999;
+                                    }
+                                }
+                            }
+                        }
+                        .custom-select {
+                            background: rgba(0, 0, 0, 0) url(../images/login/icon.png) no-repeat scroll 97% center;
+                            border: medium none;
+                            box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+                            height: 40px;
+                            margin-bottom: 20px;
+                            width: 100%;
+                            font-size: 14px;
+                            &:focus {
+                                border-color: #80bdff;
+                                outline: 0;
+                                box-shadow: 0 0 0 0.2rem rgba(128, 189, 255, .5);
+                            }
+                            option {
+                                font-size: 13px;
+                                padding: 2px 0 0 20px;
+                                background: #ffffff none repeat scroll 0 0;
+                                border: 0 solid #626262;
+                            }
+                        }
+                        .checkbox {
+                            .mr-10 {
+                                margin-right: 10px;
+                            }
+                            label {
+                                color: #999;
+                                font-size: 14px;
+                                font-weight: 400;
+                                .check {
+                                    vertical-align: middle;
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
